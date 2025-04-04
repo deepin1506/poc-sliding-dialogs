@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import SwipeableDialogs from "./components/swipableDialogs";
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         >
           Learn React
         </a>
+        {/* Add SwipeableDialogs here */}
+        <SwipeableDialogs />
       </header>
     </div>
   );
